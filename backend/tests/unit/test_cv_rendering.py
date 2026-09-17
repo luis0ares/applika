@@ -1378,7 +1378,7 @@ def test_an_optional_section_leaves_no_heading_in_the_rendered_typst(
 
 
 def test_a_skill_category_typesets_as_a_bold_line_over_its_keywords(tmp_path):
-    """What ``skills.png`` shows: the category bold, keywords beneath it.
+    """The category prints as a bold line, its keywords on the line beneath.
 
     ``#strong[...]`` on its own followed by ``#summary[...]`` is RenderCV's
     NormalEntry, which is the shape the owner's own skills section uses. A
